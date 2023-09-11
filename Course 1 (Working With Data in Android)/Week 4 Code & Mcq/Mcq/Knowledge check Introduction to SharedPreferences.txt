@@ -1,0 +1,54 @@
+
+Question 1
+Which sentence best describes shared preferences?
+
+a.Preferences cannot be removed
+
+b.It is a temporary data storage
+
+c.It is a permanent data storage
+
+
+Question 2
+Which shared preference methods can be used to put data in shared preferences? Select all that apply.
+
+a.putString
+
+b.putInt
+
+c.putBoolean
+
+d.putObject
+
+e.putFloat
+
+
+Question 3
+When are shared preference values vulnerable to data loss? Select all that apply.
+
+a.During an app uninstall
+
+
+b.During a device reset
+
+c.During a device reboot
+
+d.During an app restart
+
+
+Question 4
+How can a complex data type be stored in shared preferences?
+
+a.It must be serialized before storing it in shared preferences 
+
+b.It can’t be stored in any form 
+
+c.Use putObject
+
+
+Question 5
+Shared preferences is a temporary storage mechanism. True or false?
+
+a.True
+
+b.False

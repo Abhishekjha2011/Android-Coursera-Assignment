@@ -1,0 +1,53 @@
+
+Question 1
+In the last exercise, in which file did you need to place the Room dependencies?
+
+a.build.gradle
+
+b.MenuDatabase.kt
+
+c.MenuDao.kt
+
+
+Question 2
+Observe the following code:
+Button(
+ modifier = Modifier
+ .fillMaxWidth() 
+.padding(16.dp), 
+onClick = {
+val newMenuItem = MenuItem(
+ id = UUID.randomUUID().toString(), 
+name = dishName, 
+price = priceInput.toDouble()
+ )
+ lifecycleScope.launch { 
+withContext(IO) {
+ database.menuDao().saveMenuItem(newMenuItem)
+ }
+ } dishName = " " 
+priceInput = " " 
+} 
+) {
+ Text("Add dish")
+ }
+
+
+What is Button doing here?
+
+
+a.Adding a new menu item to the database
+
+
+b.Deleting a MenuItem
+
+
+c.Retrieving a MenuItem
+
+
+Question 3
+In this exercise the list of menu items was attached to the app state in the MainActivity.  True or false?
+
+a.True
+
+b.False

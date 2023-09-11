@@ -1,0 +1,155 @@
+
+Question 1
+Which shared preference methods should be used to save numeric data types? Select all that apply.
+
+
+a.putFloat
+
+b.putJSON
+
+c.putInt
+
+d.putValue
+
+
+Question 2
+What does it mean that SharedPreferences is used to store “persistent” data?
+
+a.Data is temporary.
+
+b.Data will be stored for later retrieval.
+
+c.The data is read only.
+
+d.The data can not be changed.
+
+
+Question 3
+What argument should be passed to the registerOnSharedPreferenceChangeListener method?
+
+a.An OnSharedPreferenceChangeListener instance
+
+b.A list of strings that represent keys
+
+c.A list of enumerations that represent keys
+
+d.A ChangeListenerForSharedPreferences listener
+
+
+Question 4
+Which Room annotation can be used to flag interfaces that define how data can be accessed?
+
+
+a.@Database
+
+
+b.@Dao
+
+
+c.@Entity
+
+
+d.@PrimaryKey
+
+
+Question 5
+What does the observeAsState method do in the following code?
+
+val user = database.userDao
+.getRandomUser()
+.observeAsState()
+
+
+a.Modifies the mutability of the database element.
+
+b.Converts the result of the DAO into a UI element.
+
+c.Converts the result of the DAO operation to Compose state.
+
+d.Modifies the data accessed by the DAO.
+
+
+Question 6
+What are the benefits of using Room to work with databases in Android? Select all that apply.
+
+a.provide AI based data querying
+
+b.easily work with PostgreSQL
+
+c.reduce error-prone boilerplate code
+
+d.provide compile-time safety
+
+
+Question 7
+What language is used to query data when working with Room?
+
+a.JSON
+
+b.Ktor
+
+c.HTML
+
+d.SQL
+
+
+Question 8
+Given the following entity definition, which code snippet correctly implements the @Database annotation?
+
+@Entity
+data class Location(
+	@PrimaryKey val id: Int
+	val long: Int
+	val lat: Int
+)
+
+a.@Database(Location, version = 1)
+
+b.@Database(Location::class, version = 1)
+
+c.@Database(entities=[Location], version = 1)
+
+d.@Database(entities=[Location::class], version = 1)
+
+
+
+
+Question 9
+Given the following DAO definition, what function would be called to remove an entity from the database?
+
+@Dao
+interface Persona {
+@Query("SELECT * FROM Personas") 
+fun A(): LiveData<List<Persona>>
+
+@Query("SELECT * FROM Personas LIMIT 1")  
+ fun B(): Persona 
+
+@Insert 
+fun C(persona: Persona) 
+
+@Delete    
+fun D(persona: Persona)
+}
+
+1.A
+
+2.B
+
+3.C
+
+4.D
+
+
+Question 10
+What is the right syntax for retrieving a shared preferences instance?
+
+a.getSharedPreferences (MODE_PRIVATE)
+
+b.getPreferences("LittleLemon")
+
+c.getPreferences("LittleLemon", MODE_PRIVATE)
+
+d.getSharedPreferences("LittleLemon", MODE_PRIVATE)
+
+
