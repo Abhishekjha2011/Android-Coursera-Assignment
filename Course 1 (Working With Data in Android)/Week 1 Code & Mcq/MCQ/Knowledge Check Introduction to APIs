@@ -1,1 +1,75 @@
 
+Question 1
+Why is communicating over HTTPS more secure than HTTP? 
+
+1.Encryption and decryption are performed both on the client- and server-side. 
+
+
+2.Both client- and server-side are encrypted but decryption is not performed. 
+
+
+3.There is client-side encryption and server-side decryption.
+
+
+4.There is only server-side encryption and client-side encryption.
+
+
+Question 2
+Which of the following HTTPS methods is used to partially update data?
+
+1.POST
+
+
+2.GET
+
+
+3.PUT
+
+
+4.PATCH
+
+
+Question 3
+Which of the following HTTP status codes inside the response header indicate server-side errors?
+
+1.100-199
+
+
+2.400-499
+
+
+3.500-599
+
+
+4.300-399
+
+
+Question 4
+RESTful APIs are considered to be stateless. What this means is the state is saved ________.
+
+
+1.on neither the client- nor server-side
+
+
+2.both on client and server
+
+
+3.only on the server
+
+
+4.only with the client 
+
+
+
+Question 5
+Which of the following can be a layer in the RESTful API communication system that data encounters while being passed between the client and server? Select all that apply.
+
+1.Load balancer 
+
+
+2.Headers
+
+
+3.Firewall
+
+
