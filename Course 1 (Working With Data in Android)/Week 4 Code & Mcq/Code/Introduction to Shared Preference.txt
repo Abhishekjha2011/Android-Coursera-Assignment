@@ -1,0 +1,24 @@
+Step 1:
+Open MainActivity.kt.
+
+Step 2:
+private valsharedPreferencesby lazy {getSharedPreferences("LittleLemon", MODE_PRIVATE)}
+
+Step 3
+private valtipMenuLiveData= MutableLiveData<Boolean>()
+
+Step 4
+tipMenuLiveData.value= sharedPreferences.getBoolean("Tip", false)
+tipMenuLiveData.value= sharedPreferences.getBoolean("Tip", false)
+
+Step 5
+valselected = tipMenuLiveData.observeAsState(false)
+
+Step 6
+Switch(checked = selected.value, onCheckedChange = {})
+
+Step 7
+Switch(checked = selected.value, onCheckedChange = {sharedPreferences.edit(commit = true) {putBoolean("Tip", it)}})
+
+Step 8
+Switch(checked = selected.value, onCheckedChange = {sharedPreferences.edit(commit = true) {putBoolean("Tip", it)     }runOnUiThread {tipMenuLiveData.value= it    }})
