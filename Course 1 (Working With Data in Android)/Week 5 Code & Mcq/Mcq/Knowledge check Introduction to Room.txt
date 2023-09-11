@@ -1,0 +1,65 @@
+
+Question 1
+ SQLite stores data in SQL tables using SQL statements. True or false?
+
+
+a.True
+
+b.False 
+
+
+Question 2
+Which of these does SQLite allow you to do? Select all that apply.
+
+a.Update data
+
+b.Read data
+
+c.Persist data
+
+d.Delete data
+
+
+Question 3
+Which of these are major Room annotations? Select all that apply.
+
+a.@Database
+
+b.@Data
+
+c.@Entity
+
+d.@Dao
+
+
+
+Question 4
+Which sentences correctly describe Room? Select all that apply.
+
+a.It provides an abstraction layer over SQLite.
+
+b.It’s a powerful library for working with data on an Android app.
+
+c.It simplifies database creation and management.
+
+d.It allows you to easily create and manage SQL databases.
+
+
+
+Question 5
+What does the class do in the following code? 
+
+@Entity(tableName = "user_table") 
+data class User (  
+   @PrimaryKey(autoGenerate = true) 
+   var id: Int,    
+ var name: String 
+) 
+
+a.Provides methods for accessing and modifying the data in the database.
+
+
+b.Serves as the entry point to the Room library.
+
+
+c.Defines the structure of the data that will be stored in the database.
