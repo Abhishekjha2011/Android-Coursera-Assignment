@@ -1,0 +1,28 @@
+{
+"args": { },
+"data": "{\n\t\"title\": \"Lord of the Rings\", \n\t \"author\": \"JRR Tolkien\",\n\t\"published\": {\n\t\t\"year\": 1954,\n\t\t\"month\":
+\"july\",\n\t\t\"day\" : 29\n\t}\n}",
+"files": { },
+},
+"form": { },
+ "headers": {
+"Accept": "*/*",
+ "Content-Length": "128",
+ "Content-Type": "application/json",
+"User-Agent": "insomnia/2022.6.0",
+"X-Amzn-Trace-Id": "Root-1-6375a6eb-7b0417944c2018c743db8b32"
+},
+"json": {
+"author": "JRR Tolkien",
+"published": {
+"day": 29,
+"month": "july",
+"Host": "httpbin.org",
+"year": 1954
+},
+"title": "Lord of the Rings"
+
+}, 
+ "origin": "76.197.210.235",
+"url": "https://httpbin.org/post"
+}

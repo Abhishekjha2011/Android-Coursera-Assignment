@@ -1,0 +1,21 @@
+{
+"args": {},
+"data": "",
+"files": { },
+"form": {
+"author": "JRR Tolkien", "title": "Lord of The Rings"
+},
+"headers": {
+"Accept": "*/*",
+"Content-Length": "200",
+"Content-Type": "multipart/form-data; boundary=X-
+INSOMNIA-BOUNDARY",
+"Host": "httpbin.org",
+"User-Agent": "insomnia/2022.6.0",
+"X-Amzn-Trace-Id": "Root-1-6375a262-
+37d9146358ed72f3302531a9"
+},
+"json": null,
+ "origin": "76.197.210.235",
+ "url": "https://httpbin.org/post"
+ }
