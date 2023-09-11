@@ -1,1 +1,111 @@
 
+
+Question 1
+Ktor is an HTTP networking library. True or false?
+
+1.True 
+
+
+2.False 
+
+
+Question 2
+HTTP requests are made of which of these items? Select all that apply.
+
+1.Operation type
+
+
+2.Version of the protocol
+
+
+3.Headers
+
+
+4.Target path
+
+
+5.Body
+
+
+Question 3
+Which HTTP response status code represents the operation success?
+
+1.200
+
+
+2.404
+
+
+3.500 
+
+
+Question 4
+Which HTTP response status code represents the resource not found?
+
+
+1.200
+
+
+2.404
+
+
+3.500 
+
+
+Question 5
+HTTP request headers provide the target path as part of HTTP request. True or false?
+
+1.True
+
+2.False
+
+
+Question 6
+HTTP headers are present in which of these items? Select all that apply:
+
+
+1.Body
+
+
+2.Protocol 
+
+
+3.Response 
+
+
+4.Request 
+
+
+Question 7
+What does this server response represent?
+
+HTTP/1.1 200 OK 
+
+Date: Sun, 10 Oct 2010 15:16:01 GMT 
+
+Server: Apache 
+
+Content-length: 18532 
+
+Content-type: text/html 
+
+
+1.Undefined operation result
+
+
+2.Operation success
+
+
+3.Operation Error 
+
+
+Question 8
+Which library can be used can you use in an Android app to make network requests?
+
+1.ktor
+
+
+2.compose
+
+
+3.HttpClient 
