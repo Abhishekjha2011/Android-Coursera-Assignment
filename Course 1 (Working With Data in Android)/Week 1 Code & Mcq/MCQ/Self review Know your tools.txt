@@ -1,0 +1,48 @@
+Question 1
+Which of the following configuration options in Insomnia were used in this Exercise? Choose all that apply.
+
+1.Creating a POST request with JSON Data.
+
+2.Creating a GET request.
+
+3.Creating a POST request with Form Data.
+
+4.Creating a Base Environment.
+
+Question 2
+Using the Filter response body option in Insomnia, which of the following filters can be used to obtain the month field [“july”] as the output when used over the JSON object below? Choose all that apply.
+
+       {
+	"title": "Lord of the Rings",
+	"author":  "JRR Tolkien",
+	"published" : {
+		"year" : 1954,
+		"month" : "july",
+		"day" : 29
+	}
+}
+
+
+1.$.json.month
+
+
+2.$.json.published."month"
+
+
+ 3.$[json][published][month]
+
+
+Question 3
+Which of the following JSON objects will return a valid JSON output that is not null while making a POST request.
+
+
+1.{ "title": Lord of the Rings }
+
+
+2.{ title: "Lord of the Rings" }
+
+
+3.{ "title": "Lord of the Rings" ,}
+
+
+4.{ "title": "Lord of the Rings" }

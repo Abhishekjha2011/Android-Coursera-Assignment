@@ -1,0 +1,149 @@
+
+Question 1
+If your API has an endpoint that can accept multiple ids, how should the ids be separated in the URL?
+
+whitespaces
+
+colons
+
+semicolons
+
+commas
+
+
+Question 2
+Which of the following routes properly follows API naming conventions? 
+
+/users/{userId}/locations?country=USA
+
+
+/users/{userId}/locations/USA
+
+
+/users/{userId}/locations?country=USA/
+
+
+Question 3
+Which of the following HTTP methods is used to instruct an API to create a new record?
+
+
+PATCH
+
+
+GET 
+
+
+DELETE
+
+
+POST
+
+
+Question 4
+Which of the following is the process of checking whether the user has the proper privileges to perform some tasks?
+
+
+Authorization
+
+
+Validation
+
+
+Client-side rendering
+
+
+Authentication.
+
+
+Question 5
+Which of the following status codes will be returned by the server if the requested resource is not found when making a GET HTTP call?
+
+
+404
+
+
+401
+
+
+302
+
+
+500
+
+
+Question 6
+Which of the following is the valid Accept header for requesting HTML content?
+
+
+text/html
+
+
+text/xml
+
+
+application/json
+
+
+application/yaml
+
+
+Question 7
+In a scenario where an app is using token-based authentication, which of the following will the server give to the client after a user first logs in successfully?
+
+
+a status code
+
+
+
+a response object
+
+
+
+a bearer token
+
+
+
+an HTTP method
+
+
+Question 8
+Which of the following statements are valid for Insomnia? Select all that apply.
+
+
+It’s a REST API Client.
+
+Insomnia can send different types of payloads.
+
+Insomnia has a mobile client.
+
+Insomnia has a command line tool.
+
+Insomnia is cross-platform.
+
+
+Question 9
+Which of the following is the secured version of HTTP?
+
+
+HTTPS
+
+APIs
+
+Authentication
+
+REST
+
+
+
+Question 10
+Which of the following is a gateway to backend data?
+
+
+a REST client
+
+an API
+
+a client
+
+a database
+
