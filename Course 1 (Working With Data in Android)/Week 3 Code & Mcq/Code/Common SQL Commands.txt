@@ -1,0 +1,36 @@
+                            Data Definition Language (DDL)
+
+CREATE Command
+CREATE TABLE table_name (column_name1 datatype(size), column_name2 datatype(size), column_name3 datatype(size));
+
+DROP Command 
+DROP TABLE table_name; 
+
+
+ALTER Command 
+1. ALTER TABLE table_name ADD (column_name datatype(size)); 
+2. ALTER TABLE table_name ADD primary key (column_name);
+
+TRUNCATE Command
+TRUNCATE TABLE table_name;
+
+COMMENT Command
+Syntax to COMMENT a line in SQL: 
+--Retrieve all data from a table
+  SELECT * FROM table_name; 
+
+                      Data Manipulation Language (DML)
+
+SELECT Command
+SELECT * FROM table_name;
+
+INSERT Command
+INSERT INTO table_name (column1, column2, column3) VALUES (value1, value2, value3);
+
+UPDATE Command 
+UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+
+DELETE Command
+DELETE FROM table_name WHERE condition;
+
+
