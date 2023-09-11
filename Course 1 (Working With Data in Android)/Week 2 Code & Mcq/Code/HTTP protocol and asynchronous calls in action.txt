@@ -1,0 +1,43 @@
+package com.littlelemon.littlelemon
+
+import ...
+
+@Serialzable
+class MenuCategory(
+val menu: List<String>
+)
+class MainActivity : ComponentActivity()
+{
+private val client = HttpClient(Android)
+{
+install(ContentNegotiation)
+{
+
+json (contentType = ContentType(contentType:"text",contentSubtype: "plain"))
+}
+} 
+private val menuItemsLiveData = MutableLiveData
+<list<String>>( )
+private Suspend fun getMenu(category: String):List<String>
+{
+val response: Map<String, MenuCategory> = client
+.get(urlString:"https://raw.githubusercontent.com/Meta-Mobile-Developer=PC/Working-with-Data-ApI/main/littleLemon
+override fun onCreate(saveInstanceState :Bundle?)
+{
+super.onCreate(savedInstanceState)
+setContent
+
+{
+LittleLemonTheme
+{
+Surface(
+modifier = Modifier.fillMaxSize(),
+color = MaterialTheme.colors.background
+)
+{
+Column(
+modifier = Modifier.fillMaxSize()
+)
+{
+this.ColumnScope
+val items = menuItemsLiveData.observeAsState(emptyList())

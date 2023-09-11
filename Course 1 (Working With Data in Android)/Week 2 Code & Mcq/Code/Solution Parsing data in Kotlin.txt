@@ -1,0 +1,54 @@
+The app/build.gradle file:
+
+dependencies { 
+ …  
+   implementation "io.ktor:ktor-serialization-kotlinx-json:2.1.3"   
+   implementation 'androidx.compose.runtime:runtime-livedata:1.3.2' 
+   implementation "io.ktor:ktor-client-core:2.1.3"    
+   implementation "io.ktor:ktor-client-android:2.1.3" 
+   implementation "io.ktor:ktor-client-content-negotiation:2.1.3" 
+
+
+
+Step : Create HttpClient
+ 
+        private val client = HttpClient(Android) { 
+        install(ContentNegotiation) { 
+        json(contentType = ContentType("text", "plain")) 
+    }
+ }     
+
+
+Step : Define menuItemsLiveData
+ 
+private val menuItemsLiveData = MutableLiveData<List<String>>() 
+
+
+Step 5: define getMenu method
+
+ private suspend fun getMenu(category: String): List<String> { 
+ val response: Map<String, MenuCategory> =             
+client.get("https://raw.githubusercontent.com/Meta-Mobile-Developer-PC/Working-With-Data-API/main/littleLemonMenu.json") .body()      
+  return response[category]?.menu ?: listOf()
+ }
+
+
+Step 6: Retrieve menu items from network
+
+override fun onCreate(savedInstanceState: Bundle? {    
+super.onCreate(savedInstanceState)     
+lifecycleScope.launch {         
+val menuItems = getMenu("Salads")         
+runOnUiThread {             
+menuItemsLiveData.value = menuItems       
+  }
+     }   
+....
+
+Step 7: Display menu items
+Column(  
+ modifier = Modifier.fillMaxSize() 
+) {    
+ val items by menuItemsLiveData.observeAsState(emptyList())    
+ MenuItems(items) 
+} 
