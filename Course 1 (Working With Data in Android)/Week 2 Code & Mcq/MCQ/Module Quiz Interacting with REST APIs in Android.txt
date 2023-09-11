@@ -1,0 +1,132 @@
+
+Question 1
+Which of the following is a client used in Kotlin to make HTTP requests?
+
+a.JSON
+
+b.HTTP
+
+c.Ktor
+
+d.GET
+
+e.Correct
+
+
+Question 2
+What is the Ktor Client primarily used for? Select all that apply. 
+
+a.Reading network responses as Kotlin objects
+
+b.Making network requests
+
+c.Logging network traffic
+
+d.Converting JSON to Kotlin objects
+
+
+
+Question 3
+Which of the following keywords ensures that a function can only be called asynchronously?
+
+a.async
+
+b.fun
+
+c.body
+
+d.suspend
+
+
+Question 4
+Which of the following is the default format for the HTTP request body written with Ktor?
+
+a.XML
+
+b.ByteArray
+
+c.JSON
+
+d.String
+
+
+Question 5
+Which of the following stores data in a JavaScript object format with a key and value pair or in a JavaScritpt array of values?
+
+
+a.XML.
+
+b.SQL
+
+c.REST
+
+d.JSON
+
+
+
+Question 6
+You have the JSON string "{\"name\":\"Jake\"}" and the Kotlin object Person that has a name field. Using GSON, how would you parse the string to the Person object?
+
+
+a,val person: Person = gson.fromJson("{\"name\":\"Jake\"}") 
+
+b.val person = gson.fromJson("{\"name\":\"Jake\"}", Person::class.java) 
+
+c.val person: Person = Gson.fromJson("{\"name\":\"Jake\"}") 
+
+
+Question 7
+Which of the following is a popular library for fetching images from an external source and displaying them dynamically in an Android app?
+
+
+a.GlideImage
+
+b.RequestImage
+
+c.Glide
+
+d.Image
+
+
+Question 8
+How is memory managed with Glide?
+
+a.automatically
+
+b.asynchronously
+
+c.synchronously
+
+d.manually
+
+
+Question 9
+Which ktor class is used to make HTTP requests and handle HTTP responses?
+
+a.Client
+
+b.KtorClient
+
+c.HttpClient
+
+d.Correct
+
+
+Question 10
+Image you have the following JSON string: 
+
+“{“hello”: “world”}”
+
+Which of the following is the correct way to define a variable that makes the above JSON data accessible to an Android application?
+
+
+a.val data = JSONObject(“{“hello”: “world”}”)
+
+b.val data = toObject(“{“hello”: “world”}”)
+
+c.JSONObject(“{“hello”: “world”}”)
+
+d.val data = “{“hello”: “world”}”
+
+
+

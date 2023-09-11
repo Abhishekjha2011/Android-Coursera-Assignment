@@ -1,0 +1,50 @@
+
+Question 1
+Image caching reduces the amount of data that needs to be downloaded from an external source. True or false?
+
+a.True  
+
+
+b.False
+
+  
+
+Question 2
+Which of these are Android image loading libraries? Select all that apply.
+
+a.Coil
+
+b.Glide
+
+c.Rembrandt
+
+d.Picasso
+
+e.Ktor
+
+
+Question 3
+Which of these can the Glide library take care of? Select all that apply.
+
+a.Sending an HTTP request to an external source and retrieving an image response.
+
+b.Managing the image cache
+
+c.Managing memory
+
+
+Question 4
+Which library can be used to parse JSON data in Kotlin?
+
+a.LiveData
+
+b.Ktor
+
+c.Glide
+
+Question 5
+Before JSON data can be used in the app, it should be serialized. True or false?
+
+a.False
+
+b.True

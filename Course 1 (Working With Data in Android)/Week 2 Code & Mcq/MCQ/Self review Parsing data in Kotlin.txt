@@ -1,0 +1,34 @@
+
+Question 1
+In this exercise, what was the name of the method that downloaded the menu items?  
+
+
+getMenu
+
+
+fetchMenu
+
+
+retrieveMenu
+
+
+Question 2
+In this exercise, how was the value from menuItemsLiveData retrieved?   
+
+
+Using the value property 
+
+
+Using the observeAsState method 
+
+
+Using the getValue method
+
+
+Question 3
+In this exercise the menuItemsLiveData.value was assigned at the main thread.  True or false?
+
+True
+
+
+False

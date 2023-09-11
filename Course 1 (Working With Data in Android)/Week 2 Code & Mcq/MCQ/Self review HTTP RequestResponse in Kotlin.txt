@@ -1,0 +1,39 @@
+
+Question 1
+In this exercise, which scope was used to launch the fetchContent method?
+
+activityScope
+
+
+ktorScope
+
+
+lifecycleScope
+
+
+Question 2
+In this exercise, which library was used to make network request?  
+
+ktor
+
+
+HttpClient
+
+
+fetch
+
+
+MutableLiveData
+
+
+Question 3
+In this exercise, which class was used to make a network request? 
+
+
+HttpClient
+
+
+MutableLiveData
+
+
+ktor
