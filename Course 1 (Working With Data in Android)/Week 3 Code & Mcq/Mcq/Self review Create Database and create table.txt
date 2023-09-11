@@ -1,0 +1,36 @@
+
+Question 1
+The following SQL statement can be used to create a database for a bookshop. True or false?
+
+CREATE bookshop DATABASE;
+
+a.False
+
+b.True
+
+
+
+Question 2
+Which SQL statement should you use to create a Customers table in a bookshop database?
+
+
+a.CREATE TABLE customers  
+ (         
+customerName VARCHAR(100)        
+ customerAddress VARCHAR(100)  
+ ); 
+
+
+b.CREATE TABLE customers
+   (      
+   customerName BOOLEAN     
+    customerAddress VARCHAR(100)  
+ ); 
+
+
+Question 3
+When selecting the data type for the customer name, the CHAR type is the best choice. True or false?
+
+a.True
+
+b,False

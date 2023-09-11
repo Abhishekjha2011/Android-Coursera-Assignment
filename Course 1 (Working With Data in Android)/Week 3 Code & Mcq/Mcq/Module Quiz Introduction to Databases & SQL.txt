@@ -1,0 +1,131 @@
+
+Question 1
+What is the name of a column in the following table creation statement? 
+
+CREATE TABLE staff (id INT, name VARCHAR(100));
+
+a.staff
+
+b.INT
+
+c.name
+
+d.CREATE
+
+
+Question 2
+What SQL command is used to modify data in a database table?
+
+
+a.EDIT
+
+b.CHANGE
+
+c.MODIFY
+
+d.UPDATE
+
+e.Correct
+
+
+
+Question 3
+Which of the following SQL statements deletes all records of data from the staff table without deleting the table itself? Select all that apply.
+
+a.DROP TABLE staff
+
+b.REMOVE FROM staff
+
+c.DELETE FROM staff
+
+d.DELETE TABLE staff
+
+
+Question 4
+What is the name for electronic storage in which data is organized systematically?
+
+a.table
+
+b.database
+
+c.big data
+
+d.query
+
+e.Correct
+
+
+Question 5
+What is one of the primary purposes of databases?
+
+a.facilitating CRUD operations
+
+b.organizing paper documents
+
+c.visualizing data
+
+d.creating markup documents
+
+
+Question 6
+What is the name for a field that deliberately contains unique values that cannot be replicated elsewhere in the table in order to uniquely identify rows in a table?
+
+
+a.join
+
+b.relationship
+
+c.primary key
+
+d.foreign key
+
+
+Question 7
+What needs to be added to tables in order for them to be joined?
+
+a.two primary keys
+
+b.a primary key and a foreign key
+
+c.two data types
+
+d.an index and a data type
+
+
+Question 8
+What type of database stores data as rows and columns in a table?
+
+a.relational
+
+b.object-oriented
+
+c.document
+
+d.graph
+
+
+Question 9
+What type of database primarily stores data as JSON objects?
+
+a.relational
+
+b.graph
+
+c.object-oriented
+
+d.document
+
+e.Correct
+
+
+Question 10
+What SQL datatype is used to store fractional numbers?
+
+a.DECIMAL
+
+b.BIGINT
+
+c.INT
+
+d.SMALLINT
+

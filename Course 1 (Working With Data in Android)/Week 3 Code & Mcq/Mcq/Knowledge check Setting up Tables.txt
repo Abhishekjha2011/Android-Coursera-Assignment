@@ -1,0 +1,50 @@
+
+Question 1
+What is the minimum number of tables that must be present in a relational database?
+
+a.Two tables 
+
+b.One table 
+
+c.Three tables
+
+
+Question 2
+What is the name of the attribute that is chosen in the database to uniquely identify each record in a table?
+
+
+a.Secondary Key
+
+b.Primary Key
+
+c.Foreign Key
+
+
+Question 3
+You need to create a table for bank account records in a financial database. Which of the following SQL statements can you use to complete this task? 
+
+a.CREATE TABLE bank_account (account_number INT, balance DECIMAL); 
+
+
+b.CREATE ENTITY bank_account (account_number INT, balance DECIMAL); 
+
+
+Question 4
+You need to create a table for staff members in a college. You must define the email address column as the primary key. Can the following SQL syntax be used to complete this task?
+
+CREATE TABLE Staff( Email VARCHAR(200) NOT NULL, Name varchar(255) NOT NULL, CONSTRAINT PK_Email PRIMARY KEY (Email));
+
+
+a.No
+
+b.Yes
+
+
+Question 5
+A conceptual database schema defines three essential parts. Select all that apply.
+
+a.Relationships
+
+b.Tables
+
+c.Attributes

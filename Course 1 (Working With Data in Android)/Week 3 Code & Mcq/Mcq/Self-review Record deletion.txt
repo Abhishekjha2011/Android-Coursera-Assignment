@@ -1,0 +1,38 @@
+
+Question 1
+True or false. The correct command to remove a record from a table is: DROP FROM.
+
+a.True
+
+b.False
+
+
+Question 2
+You can delete all records of data from a table without deleting the table itself using the SQL command DELETE FROM.
+
+a.False
+
+b.True
+
+
+Question 3
+You can delete the record of the player assigned the number seven from the table “Players” using the following SQL syntax:
+
+DELETE FROM players 
+WHERE playerNumber = seven;
+
+a.True
+
+
+b.False 
+
+
+Question 4
+True or false. You can delete all records from a table called "Players" where the value of City is equal to "London" using the following SQL syntax:
+
+DELETE FROM players 
+WHERE city = "London";
+
+a.False
+
+b.True
