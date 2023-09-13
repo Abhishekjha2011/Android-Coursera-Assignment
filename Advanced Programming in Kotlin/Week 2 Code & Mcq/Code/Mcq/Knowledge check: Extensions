@@ -1,0 +1,34 @@
+Question 1:
+Which of the below can be inherited? Select all that apply.
+
+An open class
+
+An interface
+
+An object
+
+A final class
+
+
+Question 2:
+Extension functions can be quite useful. Which of these are benefits of extension functions? Select all that apply.
+
+They can access private properties and functions of the extended class.
+
+They allow extending final and 3rd party classes.
+
+They can be called just like normal functions of the extended class.
+
+They can override existing functions of a class.
+
+
+Question 3:
+You are asked to implement an extension function for the final Dish class that would print out its ingredients field. How would the extension function look?
+
+fun Dish.printIngredients(ingredients: List<Ingredient>) { println(ingredients) }
+
+fun Dish.printIngredients() { println(ingredients) }
+
+fun printIngredients(dish: Dish) { println(dish.ingredients) }
+
+fun List<Ingredient>.printIngredients(dish: Dish) { println(this) }
