@@ -1,0 +1,9 @@
+ //Exercise setup
+You will complete this exercise using the 
+Kotlin Playground
+. Start by declaring the Dish class at the top of the code:
+
+    
+class Dish( 
+val dishName: String, 
+val ingredients: MutableList<String>  )  
