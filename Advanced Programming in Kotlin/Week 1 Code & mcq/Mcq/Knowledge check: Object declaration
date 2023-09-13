@@ -1,0 +1,33 @@
+Question 1
+RestaurantMenu is a Kotlin object with a mutable list. Which of the following statements is true? Select all that apply.  
+
+Clearing the list from activity A will clear the list for activity B as well.
+
+An element added to the list from activity A will be accessible from activity B
+
+Adding the same element from activity A or from activity B will lead to different results.
+
+An element added to the list from activity A will not be accessible from activity B
+
+
+Question 2
+Little Lemon has only one restaurant. Which entity would best represent it?
+
+Object
+
+Interface
+
+List
+
+Class
+
+Question 3
+Which of the following statements about companion objects are correct?
+
+A companion object is a singleton
+
+Companion objects can belong to multiple classes
+
+You must add a companion object for each class
+
+You can have multiple companion objects per class
