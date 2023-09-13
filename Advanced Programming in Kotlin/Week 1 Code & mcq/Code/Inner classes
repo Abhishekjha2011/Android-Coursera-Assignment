@@ -1,0 +1,29 @@
+//Outer Class
+//A nested class is a class defined within another class. For example, let’s say in the app of the Little Lemon restaurant you have a class Order. This class can have a nested class DeliveryDetails to store information such as a delivery address, delivery fee and so forth.
+//Note: In this example, Order is the outer class.
+
+class Order
+{
+val orderId = 1  
+class DeliveryDetails
+{
+val deliveryFeeInDollars = 10  
+}
+}
+println(Order.DeliveryDetails().deliveryFeeInDollars).  
+// This prints 10 
+
+//Inner Class
+ //let’s say for the outer class Order that contains a constructor parameter orderAmount there can be an inner class TaxDetails that calculates the amount of tax for the given order amount of the outer class.
+
+class Order(val orderAmount: Int)
+{   
+inner class TaxDetails 
+{    
+val taxAmount = 0.05 * orderAmount     
+}  
+} 
+// Create instance of Order with amount 100 val order = Order(100)       
+// Create instance of TaxDetails using the instance of Order class  val taxDetails = order.TaxDetails()  
+// Print the tax amount equal to 5 println(taxDetails.taxAmount) 
+
