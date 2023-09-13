@@ -1,0 +1,24 @@
+//In Kotlin, the singleton pattern can be implemented using the object keyword. In the example below, the Company class is defined as a singleton.
+
+
+ object Company
+{
+}
+
+//Once, the singleton is defined, you can add properties and functions like any other class. The example below shows two properties added to the singleton; companyName and yearOpened. There is also a function called getTotalYearsOpen which returns how many years the Little Lemon has been opened.
+
+import java.util.*;
+object Company 
+{  
+var companyName: String = "Little Lemon"   
+var yearOpened: Int = 2019        
+fun getTotalYearsOpen() : Int 
+{       
+return Calendar.getInstance().get(Calendar.YEAR) - yearOpened;   
+}
+}
+
+//For example, if you wanted to print out how many years the Little Lemon was open, you would use the following code:
+
+println(Company.getTotalYearsOpen());
+
