@@ -1,0 +1,24 @@
+Question 1
+What was the output when you ran your solution? 
+
+1.8
+
+1.5
+
+1.33
+
+Question 2:
+What is the output of the program if you add another OrderItem in the list – Ice cream (4$)?
+
+1.71
+
+1.805
+
+1.9
+
+Question 3
+How can you call a function fun sayHello() defined within a companion object of a class ‘Greeting’? 
+
+Greeting.sayHello()
+
+Greeting().sayHello()
