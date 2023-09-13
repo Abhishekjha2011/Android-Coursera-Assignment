@@ -1,0 +1,49 @@
+//In activity_main.xml, add two buttons, one for each dish:
+<Button     
+android:id="@+id/main_dish_1" 
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"
+ android:text="Hamburger"
+ android:layout_margin="8dp" 
+ app:layout_constraintTop_toTopOf="parent"   
+app:layout_constraintStart_toStartOf="parent" />   
+<Button  
+android:id="@+id/main_dish_2" 
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"  
+android:layout_margin="8dp" 
+android:text="Pasta"     
+app:layout_constraintTop_toTopOf="parent"     
+app:layout_constraintEnd_toEndOf="parent" />                                 
+
+//In MainActivity.kt, update the onCreatefunction
+
+override fun onCreate(savedInstanceState: Bundle?)
+{     
+super.onCreate(savedInstanceState)  
+setContentView(R.layout.activity_main)   
+findViewById<View>(R.id.main_dish_1).setOnClickListener {      
+// Your solution here.    
+}    
+findViewById<View>(R.id.main_dish_2).setOnClickListener {       
+// Your solution here.     
+}
+} 
+
+//Now, update activity_ingredients.xml by adding a TextView for the ingredients:
+
+<TextView   
+android:id="@+id/ingredients_list" 
+android:layout_width="match_parent"  
+android:layout_height="wrap_content" 
+app:layout_constraintTop_toTopOf="parent" /> 
+
+//Finally, update the onCreatefunction in IngredientsActivity:
+
+override fun onCreate(savedInstanceState: Bundle?)
+{
+super.onCreate(savedInstanceState) 
+setContentView(R.layout.activity_ingredients)   
+findViewById<TextView>(R.id.ingredients_list).text = 
+"<Your solution here>"
+} 
