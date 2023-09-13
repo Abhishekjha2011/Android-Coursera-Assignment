@@ -1,0 +1,30 @@
+
+//Question 1
+In the Practice defining listeners in Android exercise, when you ran the code, what did the app show on its screen?
+
+A button with text Save Data written on it.
+
+Toast message with text - Data saved
+
+Empty screen
+
+//Question 2
+What was the result of clicking the button with text Save Data?
+
+Button disappears
+
+Nothing happens
+
+A toast message with text - Data saved appears on the screen.
+
+//Question 3
+Choose the options with the correct lambda expression syntax implementation.
+
+button.setOnClickListener { view ->  println(view.id) }
+
+button.setOnClickListener( println(it.id) )
+
+ button.setOnClickListener { println(it.id) }
+
+
+
