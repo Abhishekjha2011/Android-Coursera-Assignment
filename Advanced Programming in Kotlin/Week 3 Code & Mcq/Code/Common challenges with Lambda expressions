@@ -1,0 +1,37 @@
+//Memory leaks
+//Kotlin in Android runs on the Java Virtual Machine (JVM). The JVM utilizes a mechanism called garbage collection (GC) to make sure the app memory usage doesn’t exceed the device's capabilities. A simplified explanation of GC is that when free memory runs low, it looks for objects and deletes them from memory. Loose objects are objects that are not referenced by the running code anymore.
+
+//Memory leaks happen when we keep a reference to an object we no longer need. This kind of reference prevents the GC from doing its job. Let’s see how a Lambda expression could lead to such a scenario:
+
+class LittleLemonApplication
+{ 
+var onOrderReady: () -> Unit = {}    …} 
+class MainActivity
+{ 
+fun onCreate(savedInstanceState: Bundle?)
+{  
+…       
+(application as LittleLemonApplication).onOrderReady = {showOrderReadyMessage()    
+}   
+}  
+fun showOrderReadyMessage(){ … }
+}
+
+//Testing Lambda expressions
+//When calling higher-order functions (more on these in the next lesson) on a mock (you can refresh your memory on mocks by going back to lesson 2 of module 2), you might expect the mock to execute the Lambda expression that was passed in.
+//The example below demonstrates such a scenario:
+
+class TestableClass(private val dependency: Dependency)
+fun doSomething() 
+{     
+val doThisInTheDependency = { … }   
+dependency.doSomethingElse(doThisInTheDependency) 
+} 
+
+//If you use Mockito, you can configure the mock to execute the lambda:
+
+val mockDependency: Dependency = mock {   
+on { doSomethingElse() }.willAnswer { invocation ->  
+invocation.getArgument<() -> Unit>(0) ()   
+} 
+} 
