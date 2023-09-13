@@ -1,0 +1,46 @@
+//Step 1 Solution
+fun main() 
+{ 
+repeat(3)
+{         
+}
+}
+
+//Step 2 Solution
+import kotlin.random.Random
+val discount = Random.nextInt(10) fun main()
+{
+repeat(3)
+{        
+}  
+}   
+
+//Step 3 Solution
+val discount = Random.nextInt(10)
+println("Attempt ${index+1}: $discount")   
+if (discount > maximumDiscountValue) 
+{  
+maximumDiscountValue = discount     
+}  
+}     
+println(maximumDiscountValue) 
+repeat(3)
+{ 
+index ->    var maximumDiscountValue = 0
+
+//Complete Solution
+
+import kotlin.random.Random fun main()
+{       
+var maximumDiscountValue = 0  
+repeat(3)
+{ 
+index ->        val discount = Random.nextInt(10)       
+println("Attempt ${index+1}: $discount")   
+if (discount > maximumDiscountValue) 
+{     
+maximumDiscountValue = discount  
+} 
+}    
+println(maximumDiscountValue)
+}
