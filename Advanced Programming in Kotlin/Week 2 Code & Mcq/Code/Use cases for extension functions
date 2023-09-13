@@ -1,0 +1,4 @@
+Presenting a toast to the user
+You will often want to notify the user of something happening. A common mechanism for such notifications on Android is a toast. To present a toast to the user from a Fragment, for example, you would write code like this:
+
+Toast.makeText(requireContext(), "Some message", Toast.LENGTH_SHORT)      .show() 
