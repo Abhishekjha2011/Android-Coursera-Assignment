@@ -1,0 +1,53 @@
+Question 1
+For a class Rectangle, which of these represents the correct syntax for defining an extension function getWidth?
+
+1
+fun Rectangle getWidth(): Int
+fun Rectangle getWidth(): Int
+
+1
+fun Rectangle.getWidth(): Int
+fun Rectangle.getWidth(): Int
+
+1
+fun getWidth<Rectangle>(): Int
+
+
+
+Question 2:
+For the extension function fun Rectangle.getWidth(): Int, what is the correct way to call the function in the code?
+
+
+1
+Rectangle.getWidth()
+Rectangle.getWidth()
+
+1
+Rectangle().getWidth()
+Rectangle().getWidth()
+
+1
+getWidth(Rectangle())
+
+
+Question 3:
+Which type of testing is performed to test individual components of an application’s code logic?
+
+Integration testing
+
+Unit testing
+
+End-to-end testing
+
+Question 4
+While using JUnit, which annotation is used to mark a function as a unit test?
+
+
+
+@UnitTest
+
+
+@Test
+
+
+@JUnitTest
