@@ -1,0 +1,32 @@
+Question 1:
+What was the output when you ran your solution?
+
+[Onion, Cheese, Water, Salt]
+
+[Onion, Cheese, Water]
+
+Onion,
+Cheese,
+Water
+
+
+Question 2:
+Replace the Salt string in the removeSalt extension function with Cheese. Run the code. What is the output?
+
+
+[Onion, Water]
+
+[Onion, Cheese, Water]
+
+[Onion, Water, Salt]
+
+
+Question 3
+Little Lemon asks you to write a new extension function to remove an ingredient (provided as a string) from a dish. Which of these extension functions will perform the requested task?
+
+
+fun String.removeIngredient(dish: Dish) { dish.ingredients.remove(this) }
+
+fun String.removeIngredient(ingredient: String) { remove(ingredient) } 
+
+fun Dish.removeIngredient(ingredient: String) { ingredients.remove(ingredient) } 
