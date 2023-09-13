@@ -1,0 +1,26 @@
+Question 1:
+What was the sales tax amount output (up to 2 decimal places) when you ran your exercise’s code?
+
+9.59
+
+8.98
+
+7.71
+
+Question 2:
+What would be the sales tax output (up to 2 decimal places) if you change the month to August and the sales tax percentage to 7.5%?
+
+5.02
+
+4.95
+
+6.38
+
+Question 3:
+Which of the following functions does not return a List when called on an instance of List?
+
+map
+
+filter
+
+fold
