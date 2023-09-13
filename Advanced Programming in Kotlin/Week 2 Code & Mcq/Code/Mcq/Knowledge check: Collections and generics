@@ -1,0 +1,35 @@
+Question 1:
+What operations can you perform on a MutableCollection but not on a Collection? 
+
+Remove an element.
+
+Get a count of the elements in the collection.
+
+Add an element.
+
+Read an element
+
+
+Question 2:
+Which of the following statements declares a generic class in Kotlin?
+
+class GenericClass<TYPE>
+
+generic class GenericClass
+
+abstract class GenericClass
+
+class GenericClass
+
+
+Question 3
+You need to instantiate a field named employeeNames of type List<String>. Which of the following statements is valid in Kotlin?
+
+
+val employeeNames: List<String> = "James, Ella"
+
+val employeeNames: List<String> = listOf("James", "Ella")
+
+val employeeNames: List<String> = ("James", "Ella")
+
+val employeeNames: List<String> = ["James", "Ella"]
