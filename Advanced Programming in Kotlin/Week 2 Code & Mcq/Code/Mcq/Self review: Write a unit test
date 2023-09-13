@@ -1,0 +1,27 @@
+Question 1:
+How do you convert the regular function into the test function?
+
+Mark the class where it is located with Test annotation.
+
+Append test_ prefix to the function name.    
+
+Mark the function with Test annotation.
+
+Question 2:
+What is the correct order of AAA pattern?
+
+Act – Arrange – Assert
+
+Arrange – Act – Assert
+
+Assert – Act – Arrange
+
+Question 3:
+Which of three tests for Product class will fail, if you change the minimum amount for discount from 5 to 10? (Hint: update the applyDiscount function and see)  
+
+
+Only the second test will fail.
+
+The first and the second tests will fail.
+
+All tests will fail.
