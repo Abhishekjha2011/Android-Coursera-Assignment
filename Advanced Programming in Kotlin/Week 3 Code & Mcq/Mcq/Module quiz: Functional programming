@@ -1,0 +1,10 @@
+Question 1
+Which of these are correct ways to instantiate a function type. Select all that apply.
+
+Using the function name.
+
+Using a lambda expression.
+
+Using a callable reference to existing declaration using the ‘::’ operator
+
+Using instance of a user defined class that implements a function type as an interface.
