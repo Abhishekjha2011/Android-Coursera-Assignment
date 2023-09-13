@@ -1,0 +1,61 @@
+Question 1:
+Which of these are correct ways to instantiate a function type. Select all that apply.
+
+Using a callable reference to existing declaration using the ‘::’ operator
+
+Using the function name.
+
+Using a lambda expression.
+
+Using instance of a user defined class that implements a function type as an interface.
+
+
+Question 2:
+Which of these are correct ways to instantiate a function type. Select all that apply.
+
+Using a callable reference to existing declaration using the ‘::’ operator
+
+Using the function name.
+
+Using a lambda expression.
+
+Using instance of a user defined class that implements a function type as an interface.
+
+
+Question 3:
+Which of these is a correct lambda expression syntax?
+
+x: Int, y: Int -> x * y
+
+x: Int, y: Int -> { x * y }
+
+{ x: Int, y: Int -> x * y }
+
+
+Question 4:
+Which of these would output ‘hello world’ when the function defined below is called?
+
+fun execute(string: String, function: (String) -> String)
+{ 
+println(function(string))
+}
+fun execute(string: String, function: (String) -> String) 
+{ 
+ println(function(string))
+}
+
+
+execute("hello") { "world" }
+
+execute { "hello world" }
+
+execute("hello") { "$it world" }
+
+Question 5:
+Which listener interface provided by the Android framework is used to listen for button press events?
+View.OnPressListener
+
+View.OnTapListener
+
+View.OnClickListener
+
