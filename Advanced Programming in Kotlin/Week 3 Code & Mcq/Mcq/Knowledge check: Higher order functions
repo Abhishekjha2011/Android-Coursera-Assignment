@@ -1,0 +1,44 @@
+Question 1:
+What is a higher-order function?
+
+A function that depends on another function for its output.
+
+A higher-order function is a function that does not return any value.
+
+A function that takes functions as parameters, or returns a function.
+
+Question 2:
+Which of these is a correct way to call the function greet:
+
+fun greet(name: String, function: (name: String) -> Unit) 
+{
+function(name)
+} 
+fun print(name: String)
+{
+println("Hello $name")
+}
+fun greet(name: String, function: (name: String) -> Unit) {
+ function(name)
+}
+fun print(name: String) {
+ println("Hello $name")
+}
+
+
+greet("Joe") { println("Hi $it") }
+
+greet("Joe", ::print)
+
+greet("Joe", print)
+
+greet { print(it) } (“Joe”)
+
+Question 3:
+Which of the following constructs is the repeat function similar to? 
+
+If statement 
+
+while loop 
+
+for loop 
