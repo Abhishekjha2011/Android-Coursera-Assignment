@@ -1,0 +1,29 @@
+Question 1:
+When you run your solution for the exercise Defining generic classes and functions, what is the output?
+
+1
+
+2
+
+[Cheese, Cheese]
+
+
+Question 2:
+If you replaced the type passed to newInventory from Cheese to Onion, when you run your solution, which of the following would be a valid statement?
+
+
+cheeseInventory.addIngredient(Cheese)
+
+cheeseInventory.addIngredient("Onion")
+
+cheeseInventory.addIngredient(Onion)
+
+
+Question 3:
+For the code implemented in Step 2 of the exercise, which of the below statements are valid? 
+
+Inventory<"Milk">()
+
+Inventory<Egg>()
+
+Inventory<Flour>()
