@@ -1,2 +1,2 @@
-# Android-Coursera-Assignment
+# Android Development-Assignment
 Android-Coursera-Assignment
